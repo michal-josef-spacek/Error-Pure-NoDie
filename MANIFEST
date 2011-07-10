@@ -1,0 +1,9 @@
+CHANGES
+Makefile.PL
+MANIFEST			This list of files
+NoDie.pm
+t/Error::Pure::NoDie/00-use.t
+t/Error::Pure::NoDie/01-version.t
+t/Error::Pure::NoDie/02-pod_coverage.t
+t/Error::Pure::NoDie/03-pod.t
+t/Error::Pure::NoDie/04-err.t
