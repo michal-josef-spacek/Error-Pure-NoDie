@@ -29,9 +29,7 @@ sub err {
 	my @errors = err_helper(@msg);
 
 	# Error messages.
-	foreach my $msg (@{$errors[-1]->{'msg'}}) {
-		chomp $msg;
-	}
+	chomp $errors[-1]->{'msg'}->[0];
 
 	# Print out.
 	my $stack_ar = $errors[-1]->{'stack'};
