@@ -4,9 +4,16 @@ use warnings;
 
 # Modules.
 use English qw(-no_match_vars);
+use File::Object;
 use Error::Pure::NoDie qw(err);
-use Test::More 'tests' => 5;
+use Test::More 'tests' => 6;
 use Test::Output;
+
+# Path to dir with T.pm. And load T.pm.
+BEGIN {
+	unshift @INC, File::Object->new->s;
+};
+use T;
 
 # Test.
 eval {
@@ -28,7 +35,7 @@ my $tmp = $EVAL_ERROR;
 eval {
 	err $tmp;
 };
-is($EVAL_ERROR, "Error.\n", 'Recursive eval.');
+is($EVAL_ERROR, "Error.\n", 'More evals.');
 
 # Test.
 stdout_is(
@@ -49,3 +56,9 @@ stdout_is(
 	"Error12\n",
 	'Print error instead die. Version with more messages.',
 );
+
+# Test.
+eval {
+	T::example;
+};
+is($EVAL_ERROR, "Something.\n", 'Error from module.');
