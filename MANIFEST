@@ -7,3 +7,4 @@ t/Error::Pure::NoDie/01-version.t
 t/Error::Pure::NoDie/02-pod_coverage.t
 t/Error::Pure::NoDie/03-pod.t
 t/Error::Pure::NoDie/04-err.t
+t/Error::Pure::NoDie/T.pm
