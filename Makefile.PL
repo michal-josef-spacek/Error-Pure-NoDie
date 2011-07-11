@@ -18,6 +18,7 @@ WriteMakefile(
 	'CONFIGURE_REQUIRES' => {
 		'ExtUtils::MakeMaker' => 0,
 	},
+	'LICENSE' => 'bsd',
 	'NAME' => 'Error::Pure::NoDie',
 	'PREREQ_PM' => {
 		'Error::Pure::Utils' => 0.01,
