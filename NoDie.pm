@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Error::Pure::NoDie - Error::Pure class for simple print instead die.
+Error::Pure::NoDie - Error::Pure module for simple print instead die.
 
 =head1 SYNOPSIS
 
