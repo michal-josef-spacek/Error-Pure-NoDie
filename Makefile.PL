@@ -11,6 +11,7 @@ author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Error-Pure-NoDie';
 requires 'Error::Pure::Utils' => 0.09;
+requires 'Exporter' => 0;
 requires 'List::MoreUtils' => 0;
 requires 'Readonly' => 0;
 requires 'perl' => '5.6.2';
