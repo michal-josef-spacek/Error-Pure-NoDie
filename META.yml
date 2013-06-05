@@ -1,5 +1,5 @@
 ---
-abstract: ''
+abstract: 'Error::Pure module for simple print instead die.'
 author:
   - 'Michal Špaček <skim@cpan.org>'
 build_requires:

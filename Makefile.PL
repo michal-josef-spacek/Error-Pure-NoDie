@@ -6,7 +6,7 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract '';
+abstract 'Error::Pure module for simple print instead die.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Error-Pure-NoDie';
