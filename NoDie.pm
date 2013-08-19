@@ -179,6 +179,7 @@ L<Readonly>.
 =head1 SEE ALSO
 
 L<Error::Pure>,
+L<Error::Pure::Always>,
 L<Error::Pure::AllError>,
 L<Error::Pure::Die>,
 L<Error::Pure::Error>,
