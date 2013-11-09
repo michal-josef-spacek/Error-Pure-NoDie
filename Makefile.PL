@@ -10,6 +10,7 @@ abstract 'Error::Pure module for simple print instead die.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Error-Pure-NoDie';
+readme_from 'NoDie.pm';
 requires 'Error::Pure::Utils' => 0.09;
 requires 'Exporter' => 0;
 requires 'List::MoreUtils' => 0;
