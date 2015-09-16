@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Error::Pure module for simple print instead die.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Error-Pure-NoDie';
 readme_from 'NoDie.pm';

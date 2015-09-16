@@ -1,6 +1,7 @@
 0.04
  - Add 'readme_from' directive to Makefile.PL.
  - Fix LICENSE file.
+ - Remove diacritics from author name.
  - Update Module::Install to 1.16 version.
 
 0.03 2013-09-21
