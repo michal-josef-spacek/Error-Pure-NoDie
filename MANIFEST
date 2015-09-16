@@ -4,6 +4,8 @@ examples/ex2.pl
 examples/ex3.pl
 examples/ex4.pl
 inc/Module/Install.pm
+inc/Module/Install/AuthorRequires.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -19,9 +21,9 @@ META.yml
 NoDie.pm
 README
 SIGNATURE
-t/Error-Pure-NoDie/00-use.t
-t/Error-Pure-NoDie/01-version.t
-t/Error-Pure-NoDie/02-pod_coverage.t
-t/Error-Pure-NoDie/03-pod.t
-t/Error-Pure-NoDie/04-err.t
+t/Error-Pure-NoDie/01-use.t
+t/Error-Pure-NoDie/02-version.t
+t/Error-Pure-NoDie/03-err.t
 t/Error-Pure-NoDie/T.pm
+xt/Error-Pure-NoDie/01-pod_coverage.t
+xt/Error-Pure-NoDie/02-pod.t
