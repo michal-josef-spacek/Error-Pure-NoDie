@@ -5,6 +5,7 @@
  - Move author tests to xt/ directory.
  - Remove diacritics from author name.
  - Update Module::Install to 1.16 version.
+ - Update copyright years.
 
 0.03 2013-09-21
  - Rewrite Changes file to CPAN::Changes::SPEC format.
