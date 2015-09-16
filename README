@@ -104,9 +104,8 @@ DEPENDENCIES
     Exporter, List::MoreUtils, Readonly.
 
 SEE ALSO
-    Error::Pure, Error::Pure::Always, Error::Pure::AllError,
-    Error::Pure::Die, Error::Pure::Error, Error::Pure::ErrorList,
-    Error::Pure::Output::Text, Error::Pure::Print.
+    Task::Error::Pure
+        Install the Error::Pure modules.
 
 AUTHOR
      Michal Špaček L<skim@cpan.org>
