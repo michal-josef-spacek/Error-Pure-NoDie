@@ -10,11 +10,9 @@ SUBROUTINES
              Process error with messages @messages.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Error::Pure::NoDie qw(err);
 
      # Error.
@@ -24,11 +22,9 @@ EXAMPLE1
      # 1
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Error::Pure::NoDie qw(err);
 
      # Error.
@@ -40,11 +36,9 @@ EXAMPLE2
      # 2
 
 EXAMPLE3
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Error::Pure::NoDie qw(err);
 
      # Error.
@@ -54,11 +48,9 @@ EXAMPLE3
      # 1
 
 EXAMPLE4
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Dumpvalue;
      use Error::Pure::NoDie qw(err);
      use Error::Pure::Utils qw(err_get);

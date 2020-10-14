@@ -1,19 +1,15 @@
 package Error::Pure::NoDie;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure::Utils qw(err_helper);
 use List::MoreUtils qw(none);
 use Readonly;
 
-# Version.
 our $VERSION = 0.05;
 
-# Constants.
 Readonly::Array our @EXPORT_OK => qw(err);
 Readonly::Scalar my $EMPTY_STR => q{};
 Readonly::Scalar my $EVAL => 'eval {...}';
@@ -77,11 +73,9 @@ Error::Pure::NoDie - Error::Pure module for simple print instead die.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::NoDie qw(err);
 
  # Error.
@@ -92,11 +86,9 @@ Error::Pure::NoDie - Error::Pure module for simple print instead die.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::NoDie qw(err);
 
  # Error.
@@ -109,11 +101,9 @@ Error::Pure::NoDie - Error::Pure module for simple print instead die.
 
 =head1 EXAMPLE3
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::NoDie qw(err);
 
  # Error.
@@ -124,11 +114,9 @@ Error::Pure::NoDie - Error::Pure module for simple print instead die.
 
 =head1 EXAMPLE4
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Dumpvalue;
  use Error::Pure::NoDie qw(err);
  use Error::Pure::Utils qw(err_get);
