@@ -1,5 +1,6 @@
 0.05
  - Add REPOSITORY section to doc.
+ - Improve AUTHOR and LICENSE AND COPYRIGHT sections in doc.
  - Update Module::Install to 1.19 version.
  - Update author github username.
  - Update author name.

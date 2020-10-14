@@ -180,13 +180,15 @@ L<https://github.com/michal-josef-spacek/Error-Pure-NoDie>
 
 =head1 AUTHOR
 
- Michal Josef Špaček L<skim@cpan.org>
- http://skim.cz
+Michal Josef Špaček L<skim@cpan.org>
+
+http://skim.cz
 
 =head1 LICENSE AND COPYRIGHT
 
- © 2011-2020 Michal Josef Špaček
- BSD 2-Clause License
+© 2011-2020 Michal Josef Špaček
+
+BSD 2-Clause License
 
 =head1 VERSION
 
