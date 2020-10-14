@@ -3,6 +3,7 @@
  - Improve AUTHOR and LICENSE AND COPYRIGHT sections in doc.
  - Improve SYNOPSIS section in doc.
  - Makefile.PL fails with no '.' in @INC.
+ - Rewrite doc to use =head2 in SUBROUTINES section.
  - Update Module::Install to 1.19 version.
  - Update author github username.
  - Update author name.

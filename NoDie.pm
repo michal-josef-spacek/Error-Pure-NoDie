@@ -64,13 +64,11 @@ Error::Pure::NoDie - Error::Pure module for simple print instead die.
 
 =head1 SUBROUTINES
 
-=over 8
+=head2 C<err>
 
-=item B<err(@messages)>
+ err 'This is a fatal error', 'name', 'value';
 
- Process error with messages @messages.
-
-=back
+Process error with messages @messages.
 
 =head1 EXAMPLE1
 

@@ -7,8 +7,10 @@ SYNOPSIS
      err 'This is a fatal error', 'name', 'value';
 
 SUBROUTINES
-    err(@messages)
-             Process error with messages @messages.
+  "err"
+     err 'This is a fatal error', 'name', 'value';
+
+    Process error with messages @messages.
 
 EXAMPLE1
      use strict;
