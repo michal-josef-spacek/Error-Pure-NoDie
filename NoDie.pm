@@ -176,12 +176,12 @@ Install the Error::Pure modules.
 
 =head1 AUTHOR
 
- Michal Špaček L<skim@cpan.org>
+ Michal Josef Špaček L<skim@cpan.org>
  http://skim.cz
 
 =head1 LICENSE AND COPYRIGHT
 
- © 2011-2015 Michal Špaček
+ © 2011-2015 Michal Josef Špaček
  BSD 2-Clause License
 
 =head1 VERSION

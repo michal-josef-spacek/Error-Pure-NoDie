@@ -1,7 +1,7 @@
 ---
 abstract: 'Error::Pure module for simple print instead die.'
 author:
-  - 'Michal Spacek <skim@cpan.org>'
+  - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
   English: 0
   ExtUtils::MakeMaker: 6.36
