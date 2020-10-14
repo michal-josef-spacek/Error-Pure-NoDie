@@ -2,6 +2,7 @@
  - Add REPOSITORY section to doc.
  - Improve AUTHOR and LICENSE AND COPYRIGHT sections in doc.
  - Improve SYNOPSIS section in doc.
+ - Makefile.PL fails with no '.' in @INC.
  - Update Module::Install to 1.19 version.
  - Update author github username.
  - Update author name.
