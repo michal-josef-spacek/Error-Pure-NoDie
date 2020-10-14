@@ -59,6 +59,7 @@ Error::Pure::NoDie - Error::Pure module for simple print instead die.
 =head1 SYNOPSIS
 
  use Error::Pure::NoDie qw(err);
+
  err 'This is a fatal error', 'name', 'value';
 
 =head1 SUBROUTINES
