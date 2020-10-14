@@ -181,7 +181,7 @@ Install the Error::Pure modules.
 
 =head1 LICENSE AND COPYRIGHT
 
- © 2011-2015 Michal Josef Špaček
+ © 2011-2020 Michal Josef Špaček
  BSD 2-Clause License
 
 =head1 VERSION
