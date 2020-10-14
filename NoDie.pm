@@ -174,6 +174,10 @@ Install the Error::Pure modules.
 
 =back
 
+=head1 REPOSITORY
+
+L<https://github.com/michal-josef-spacek/Error-Pure-NoDie>
+
 =head1 AUTHOR
 
  Michal Josef Špaček L<skim@cpan.org>
